@@ -13,58 +13,69 @@ La app muestra:
 
 ---
 
-## 🛠 Tecnologías usadas
+## 🛠 Tecnologías utilizadas
 
-- Python 3
-- Flask
-- HTML5 / CSS3 / Bootstrap 5
-- JavaScript
-- OpenWeather API
+- **Backend:** Python 3, Flask
+- **Frontend:** HTML5, CSS3, Bootstrap 5, JavaScript
+- **API:** OpenWeather
+- **Animaciones:** CSS3 (transiciones y keyframes)
 
 ---
 
 ## 🚀 Instalación y ejecución
 
-1. Clonar el repositorio:
+1. **Clonar el repositorio:**
 
 ```bash
-git clone https://github.com/iparra-sys/app_clima.git
+   git clone https://github.com/iparra-sys/app_clima.git
+   cd app_clima
 ```
 
-2. Entrar a la carpeta del proyecto:
-
-```bash
-cd app_clima
-```
-3. Crear un entorno virtual
+2. Crear y activar un entorno virtual:
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # Linux / Mac
 venv\Scripts\activate     # Windows
 ```
-4.Instalar dependencias:
+3.Instalar dependencias:
 ```bash
-pip install flask requests
+pip install -r requirements.txt
 ```
-5.Ejecutar la app:
+4.Ejecutar la aplicación:
 ```bash
 python app.py
 ```
-6.Abrir en el navegador: http://127.0.0.1:5000
+5.Abrir en el navegador: http://127.0.0.1:5000
 
 ---
-⚡ Características
+📄 Requisitos
 
-Diseño moderno y responsivo (móvil, tablet y escritorio)
-Feedback visual con spinner de carga
-Mensajes de error claros
-Transiciones y animaciones suaves
+Python 3.8 o superior
 
+Acceso a la API de OpenWeather (requiere una clave de API)
+---
+🌟 Características
+
+Interfaz limpia y moderna: Diseño responsivo adaptado a dispositivos móviles y de escritorio.
+Feedback visual: Spinner de carga mientras se obtienen los datos del clima.
+Animaciones sutiles: Transiciones suaves y efectos de entrada en los elementos.
+Fondo dinámico: Cambio de fondo según el clima actual (soleado, nublado, lluvioso, etc.).
+Íconos animados: Íconos del clima con efectos como rotación para el sol y flotación para las nubes.
+
+---
+📸 Capturas de pantalla
+
+
+Vista principal de la aplicación.
+
+
+Resultados del clima para una ciudad.
 ---
 
 👩‍💻 Autora
 
+✨ Proyecto desarrollado como parte del Portafolio 2025 - Iveth Parra Herrera ✨
 💡 “El código es una herramienta para construir soluciones reales y dejar huella.”
 
-✨ Proyecto desarrollado como parte del Portafolio 2025 - Iveth Parra Herrera ✨
+
