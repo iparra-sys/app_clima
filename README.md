@@ -134,8 +134,8 @@ Muestra la **pantalla principal** y los resultados de consultas de diferentes ci
 </p>
 
 <p align="center">
-  <img src="static/bogota.png" alt="Consulta Bogotá" width="60%">
-  <img src="static/madrid.png" alt="Consulta Madrid" width="60%">
+  <img src="static/bogota.png" alt="Consulta Bogotá" width="45%">
+  <img src="static/madrid.png" alt="Consulta Madrid" width="45%">
 </p>
 
 ---
