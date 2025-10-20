@@ -1,0 +1,97 @@
+/* Fade-in para datos del clima */
+.fade-in {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeIn 0.8s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animaciones de íconos */
+.weather-info img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.5s ease; /* transición suave */
+}
+
+.weather-info img.sun {
+    animation: girar 5s linear infinite;
+}
+
+.weather-info img.clouds {
+    animation: flotar 4s ease-in-out infinite alternate;
+}
+
+@keyframes girar {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes flotar {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-10px); }
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .weather-info h3 {
+        font-size: 1.5rem;
+    }
+
+    .weather-info .temp {
+        font-size: 2.5rem;
+    }
+
+    .weather-info p {
+        font-size: 1rem;
+    }
+
+    input, button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .weather-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .weather-info .temp {
+        font-size: 2rem;
+    }
+
+    .weather-info p {
+        font-size: 0.9rem;
+    }
+
+    input, button {
+        font-size: 0.9rem;
+    }
+}
+
+.weather-info img {
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 480px) {
+    .weather-info img {
+        width: 70px;
+        height: 70px;
+    }
+}
