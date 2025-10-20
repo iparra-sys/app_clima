@@ -1,13 +1,15 @@
 # 🌤️ App del Clima
 
-Una aplicación web sencilla que permite consultar el clima de cualquier ciudad en tiempo real usando la API de OpenWeather. La app muestra:
+Una aplicación web sencilla para consultar el clima de cualquier ciudad en tiempo real usando la API de OpenWeather.  
 
-- Temperatura actual
-- Velocidad del viento
-- Descripción del clima
-- Íconos animados según el clima (sol girando, nubes flotando)
-- Fondo dinámico según el clima
-- Animaciones suaves y feedback de carga
+La app muestra:
+
+- 🌡️ Temperatura actual
+- 💨 Velocidad del viento
+- ☁️ Descripción del clima
+- 🌞 Íconos animados según el clima (sol girando, nubes flotando)
+- 🎨 Fondo dinámico según la condición meteorológica
+- ✨ Animaciones suaves y feedback de carga
 
 ---
 
@@ -26,13 +28,13 @@ Una aplicación web sencilla que permite consultar el clima de cualquier ciudad 
 1. Clonar el repositorio:
 
 ```bash
-git clone <TU_REPOSITORIO_URL>
+git clone https://github.com/iparra-sys/app_clima.git
 ```
 
-2. Ir a la carpeta del proyecto:
+2. Entrar a la carpeta del proyecto:
 
 ```bash
-git clone <TU_REPOSITORIO_URL>
+cd app_clima
 ```
 3. Crear un entorno virtual
 
